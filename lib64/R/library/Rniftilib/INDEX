@@ -1,0 +1,21 @@
+nifti                   NIfTI object
+nifti.compiled.with.zlib
+                        Check support for compressed NIfTI files.
+nifti.datatype.string   Return string for NIfTI-1 datatype code value.
+nifti.disp.lib.version
+                        NIfTI library version.
+nifti.image.alloc.data
+                        Allocate data block for NIfTI image
+nifti.image.copy.info   Copy NIFTI image (info) without voxel data.
+nifti.image.free        Free NIfTI image data structure
+nifti.image.new         Create new NIfTI image
+nifti.image.read        Read data from NIfTI (Analyze) files
+nifti.image.setdatatype
+                        Change data type of nifti object.
+nifti.image.unload      Unload NIfTI image data
+nifti.image.write       Write data to NIfTI (Analyze) files
+nifti.interpolate3d     Interpolation between voxels
+nifti.read.subregion.image
+                        Read a subregion from a NIfTI image
+nifti.set.filenames     Set filenames for a NIFTI image
+nifti.units.string      Return string for NIfTI-1 unit code value.
